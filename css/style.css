@@ -1,0 +1,449 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway';
+    outline: none;
+    
+}
+
+.conteudo{
+    margin: auto;
+    padding-top: 150px;
+}
+    
+/*INTRODUÇÃO*/
+.introducao{
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: #5E72E4;
+}
+.introducao h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-size: 1em;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+
+}
+.introducao h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 10px;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 162.5px;
+}
+.introducao p{
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 5px;
+    font-size: 1em;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.introducao p span{
+    color: #fff;
+    font-weight: bold;
+}
+.introducao img{
+    width: 39px;
+    height: 40px;
+    display: flex;
+    margin: auto;
+    padding-top: 10px;
+}
+.spanport{
+    color: #fff;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    letter-spacing: 3px;
+}
+
+/*SKILLS*/
+.sobre-mim{
+    background:url('../imagens/background.png');
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    max-height: 768px;
+    width: 100%;
+    height: auto;
+}
+
+.sobre-mim-title{
+    width: 100%;
+    height: 5%;
+    
+    
+}
+.sobre-mim-title h2{
+    color: #fff;
+    text-align: center;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+.skills{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.bola-azul{
+    background-color: #5E72E4;
+    width: 100px;
+    height: 100px;
+    margin-left: 40px;
+    border-radius: 50px;
+    padding: 1px;
+    padding-top: 20px;
+}
+.bola-azul p{
+    font-size: 1em;
+    color: #fff;
+    font-weight: bold;
+    display: inline;
+}
+.bola-azul p{
+    padding: 22px;
+    color: #fff;
+    font-size: 3em;
+    font-weight: bold;
+    transform: translateY(-10px);
+}
+.nome{
+    width: auto;
+    height: auto;
+}
+.nome p{
+    color: #fff;
+    font-size: 0.9em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 11px;
+    padding-bottom: 31px;
+    padding-top: 19px;
+}
+.nome span{
+    color: #fff;
+    font-size: 0.9em;
+    font-weight: bold;
+    letter-spacing: 3px;
+    padding: 11px;
+}
+
+
+
+/*PROJETOS*/
+.projetos{
+    text-align: center;
+    width: 100%;
+    background-color: #243649;
+}
+.projetos h2{
+    font-size: 2em;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+}
+.projetos-itens{
+    display: flex;
+    padding: 7em;
+    justify-content: space-around;
+}
+.projetos-item{
+    padding-top: 1.5em;    
+
+}
+.projetos-item h3{
+    color: #fff;
+    font-weight: bold;
+    padding: 0.5em;
+    text-transform: uppercase;
+}
+.projetos-item img{
+    width: 233px;
+    height: 383px;
+}
+
+.quadrado-projeto{
+    background-color: #5E72E4;
+    width: 386px;
+    height: 495px;
+    border-style: solid;
+    border-color: #fff;
+    border-radius: 50px;
+
+}
+
+/*QUEBRA*/
+.quebra{
+    width: 100%;
+    height: 10px;
+    background: #000;
+}
+.quebra img{
+    width: 44px;
+    height: 44px;
+    display: block;
+    margin: 0 auto;
+    transform: translateY(-17px);
+}
+
+/*CONTATO*/
+.contato{
+    width: 100%;
+    height: 384px;
+    background-color: #243649;
+}
+.contato h2{
+    font-size: 2em;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1em;
+}
+.icones{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    
+}
+.icones img{
+    width: 156px;
+    height: 156px;
+    padding: 3em;
+    margin-top: 50px;
+}
+
+/*LINKS*/
+.links{
+    height: auto;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.links a{
+    padding: 2.4em;
+    margin-top: -30px;
+    font-size: 1.2em;
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
+
+/*largura até 910px*/
+@media screen and (max-width:1504px){
+    .sobre-mim{
+        background:url('../imagens/background.png');
+       background-size: cover;
+       display: flex;
+       max-height: 768px;
+       width: 100%;
+       height: auto;
+       }
+}
+
+
+
+@media screen and (max-width:1210px){
+    .conteudo h2{
+        font-size: 110.5px;
+    }
+    .sobre-mim{
+     background:url('../imagens/background.png');
+    background-size: cover;
+    display: flex;
+    max-height: 768px;
+    width: 100%;
+    height: auto;
+    }
+}
+
+
+@media screen and (max-width:1070px){
+    .sobre-mim{
+        background:url('../imagens/background.png');
+       background-size: cover;
+       display: flex;
+       max-height: 513px;
+       width: 100%;
+       height: auto;
+       }
+}
+
+@media screen and (max-width:755px){
+    .introducao h1{
+        font-size: 0.8em;
+    }
+    .conteudo h2{
+        font-size: 90.5px;
+    }
+    .introducao p{
+        font-size: 0.8em;
+    }
+    .introducao p span{
+        color: #fff;
+        font-weight: bold;
+    }
+
+    .sobre-mim{
+        background:url('../imagens/background.png');
+       background-size: cover;
+       display: flex;
+       max-height: 358px;
+       width: auto;
+       height: auto;
+       }
+    .sobre-mim-title h2{
+    font-size: 1.5em;
+    }
+    .nome p{
+        font-size: 0.7em;
+    }
+    .nome span{
+        font-size: 0.7em;
+    }
+}
+
+@media screen and (max-width:575px){
+    .introducao h1{
+        font-size: 0.7em;
+    }
+    .conteudo h2{
+        font-size: 75px;
+    }
+    .introducao p{
+        font-size: 0.6em;
+    }
+    .introducao p span{
+        color: #fff;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width:420px){
+    
+    .introducao h1{
+        font-size: 0.4em;
+    }
+    .conteudo h2{
+        font-size: 38px;
+    }
+    .introducao p{
+        font-size: 5px;;
+    }
+    .introducao p span{
+        color: #fff;
+        font-weight: bold;
+    }
+    .sobre-mim{
+        background:url('../imagens/background.png');
+       background-size: cover;
+       display: flex;
+       max-height: 200px;
+       width: auto;
+       height: auto;
+       }
+       .bola-azul{
+        background-color: #5E72E4;
+        width: 70px;
+        height: 70px;
+        margin-left: 40px;
+        border-radius: 50px;
+        padding: 1px;
+        padding-top: 17px;
+    }
+    .bola-azul p{
+        font-size: 0.5em;
+        color: #fff;
+        font-weight: bold;
+        display: inline;
+    }
+    .bola-azul p{
+        padding: 16px;
+        color: #fff;
+        font-size: 2em;
+        font-weight: bold;
+        transform: translateY(-10px);
+    }
+    .nome p{
+        color: #fff;
+        font-size: 0.5em;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        padding: 11px;
+        padding-bottom: 11px;
+        padding-top: 19px;
+    }
+    .nome span{
+        color: #fff;
+        font-size: 0.5em;
+        font-weight: bold;
+        letter-spacing: 3px;
+        padding: 11px;
+    }
+    .projetos h2{
+        font-size: 1.5em;
+        text-transform: uppercase;
+        color: #fff;
+        font-weight: bold;
+    }
+    .projetos-item img{
+        width: 143px;
+        height: 283px;
+    }
+    
+    .quadrado-projeto{
+        background-color: #5E72E4;
+        width: 386px;
+        height: 395px;
+        border-style: solid;
+        border-color: #fff;
+        border-radius: 30px;
+    
+    }
+    .contato h2{
+        font-size: 1.5em;
+    }
+    .links a{
+        padding: 2.1em;
+        margin-top: -30px;
+        font-size: 1.2em;
+        text-decoration: none;
+        font-weight: bold;
+        color: #000;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fullscreen{
+    height: 100vh;
+}
